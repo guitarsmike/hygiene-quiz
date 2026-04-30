@@ -479,7 +479,7 @@ tbody tr:hover td{background:rgba(247,183,49,.04)}
         <input type="text" id="inp-name" class="wlc-inp" placeholder="Vorname / Nachname" maxlength="40" autocomplete="name" onkeydown="if(event.key==='Enter')document.getElementById('inp-dept').focus()">
       </div>
       <div class="wlc-field">
-        <label class="wlc-field-label" for="inp-dept">Stationskürzel</label>
+        <label class="wlc-field-label" for="inp-dept">Stationskürzel / Abteilung</label>
         <input type="text" id="inp-dept" class="wlc-inp" placeholder="z. B. MEAS" maxlength="60" onkeydown="if(event.key==='Enter')startQuiz()">
       </div>
       <button class="wlc-btn" onclick="startQuiz()">Weiter →</button>
@@ -1495,7 +1495,7 @@ const IMG_SRC_FALLBACK = CFG.customImg || '';
 const DISCLAIMER_TEXT = `
 TITEL: Teilnahmebedingungen und Haftungsausschluss
 META: Hygiene-Quiz · Online-Gewinnspiel · Stabsstelle für Infektionsprävention und Krankenhaushygiene · LKH Innsbruck
-FUSSZEILE: Stand: Mai 2026 · Stabsstelle für Infektionsprävention und Krankenhaushygiene · LKH Innsbruck · Michael Engl, DSA
+FUSSZEILE: Stand: Mai 2026 · Stabsstelle für Infektionsprävention und Krankenhaushygiene · LKH Innsbruck 
 
 ## Teil 1 – Teilnahmebedingungen zum Gewinnspiel
 
